@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+img {
+    height: 250px;
+    width: 250px;
+}
+#playlist-list{
+    display:inline-block;
+}
+#playlist-card {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+li{
+    text-align: center;
+    display: flex;
+}
