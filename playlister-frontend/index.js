@@ -50,29 +50,42 @@ playCard = document.querySelector("#playlist-card")
 
 
 function renderAllSongs(playlist){
-    const songs = [...playlist.songs]
-    songextractor(songs)
-    function songextractor(songs){
+    const songs = [...playlist.songs] 
+        lid = document.getElementById(`${playlist.id}`)
         for(var i = 0; i < songs.length;i++){
+            const ndiv = document.createElement("div")
+            ndiv.id = "info"
             songpara = document.createElement("p")
-            songpara.innerHTML = `Song: ${songs[i].title} Artist: ${songs[i].artist} Genre: ${songs[i].genre}`
+            songpara.innerHTML = `Song: ${songs[i].title} by: ${songs[i].artist}`
+            pdiv = document.createElement("div")
+            pdiv.id = "songimg"
             songimg = document.createElement("img")
             songimg.src = songs[i].cover
-            songpara.append(songimg)
-            playCard.append(songpara)
+            pdiv.append(songimg)
+            // songpara.append(songimg)
+            ndiv.append(songpara)
+            ndiv.append(pdiv)
+            lid.append(ndiv)
         }
-    }
+    
 }
 
 function renderOneSong(song){
     const playid = song.playlist.id
     const newSongLi = document.getElementById(`${playid}`)
+    const newdiv = document.createElement("div")
+    newdiv.id = "info"
     songpara = document.createElement("p")
-    songpara.innerHTML = `${song.title} artist: ${song.artist}`
+    songpara.innerHTML = `Song: ${song.title} by: ${song.artist}`
+    pdiv = document.createElement("div")
+    pdiv.id = "songimg"
     songimg = document.createElement("img")
     songimg.src = song.cover
-    songpara.append(songimg)
-    newSongLi.append(songpara)
+    pdiv.append(songimg)
+    // songpara.append(songimg)
+    newdiv.append(songpara)
+    newdiv.append(pdiv)
+    newSongLi.append(newdiv)
 }
 
 
