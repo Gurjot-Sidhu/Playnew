@@ -1,0 +1,63 @@
+#head{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+#playlist-list{
+    display: inline-block;
+}
+
+#playlist-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 95vw;
+    align-items: flex-start;
+}
+
+
+li{
+    box-sizing: content-box;
+    flex-basis: auto;
+    list-style-type: none;
+    flex-grow: 1;
+    max-width: 400px;
+    position: relative;
+    margin: 20px;
+}
+
+#info{
+    box-sizing: content-box;
+    border-style: solid;
+    border-color: black;
+}
+
+#songimg,img{
+    /* position: right; */
+    /* float: left; */
+    box-sizing: content-box;
+    /* height: 100%; */
+    
+    object-fit: fill;
+    display: inline;
+    width: 51%;
+    
+}
+
+p{
+    margin: ;
+    box-sizing: content-box;
+    width:49%;
+    float: left;
+    display: inline;
+}
+img{
+    object-fit: scale-down;
+}
+
+#newsongform{
+    
+}

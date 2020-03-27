@@ -25,15 +25,19 @@ function renderOnePlaylist(playlist){
     modal = document.createElement("div")
     modal.innerHTML =`
     <form id="newsongform" style = "display: none;">
-      <h3>Add new Song</h3>
+      <h2>Add new Song</h2>
       <label for="title">Title</label>
       <input type="text" name="title">
+      <br>
       <label for="artist">Artist</label>
       <input type="text" name="artist">
+      <br>
       <label for="genre">Genre</label>
       <input type="text" name="genre">
+      <br>
       <label for="cover">Cover</label>
       <input type="text" name="cover">
+      <br>
       <input type="hidden" name="playlistid" value="${playlist.id}">
       <input type="submit" value="Add Song">
     </form>`
@@ -56,7 +60,7 @@ function renderAllSongs(playlist){
             const ndiv = document.createElement("div")
             ndiv.id = "info"
             songpara = document.createElement("p")
-            songpara.innerHTML = `Song: ${songs[i].title} by: ${songs[i].artist}`
+            songpara.innerHTML = `${songs[i].title} by: ${songs[i].artist}`
             pdiv = document.createElement("div")
             pdiv.id = "songimg"
             songimg = document.createElement("img")
@@ -76,7 +80,7 @@ function renderOneSong(song){
     const newdiv = document.createElement("div")
     newdiv.id = "info"
     songpara = document.createElement("p")
-    songpara.innerHTML = `Song: ${song.title} by: ${song.artist}`
+    songpara.innerHTML = `${song.title} by: ${song.artist}`
     pdiv = document.createElement("div")
     pdiv.id = "songimg"
     songimg = document.createElement("img")
