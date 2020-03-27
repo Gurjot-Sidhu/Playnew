@@ -60,7 +60,11 @@ function renderAllSongs(playlist){
             const ndiv = document.createElement("div")
             ndiv.id = "info"
             songpara = document.createElement("p")
-            songpara.innerHTML = `${songs[i].title} by: ${songs[i].artist}`
+            songpara.innerHTML = `${songs[i].title} by: ${songs[i].artist}
+            <br><br><br>
+            <button value ="delete"type="button">Delete</button>
+            <button value ="update"type="button">Update</button>
+            `
             pdiv = document.createElement("div")
             pdiv.id = "songimg"
             songimg = document.createElement("img")

@@ -48,9 +48,9 @@ li{
 }
 
 p{
-    margin: ;
+    margin-bottom: auto;
     box-sizing: content-box;
-    width:49%;
+    width: 49%;
     float: left;
     display: inline;
 }
@@ -60,5 +60,4 @@ img{
 
 #newsongform{
     text-align: center;
-    te
 }
