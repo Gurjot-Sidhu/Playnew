@@ -62,8 +62,8 @@ function renderAllSongs(playlist){
             songpara = document.createElement("p")
             songpara.innerHTML = `${songs[i].title} by: ${songs[i].artist}
             <br><br><br>
-            <button value ="delete"type="button">Delete</button>
-            <button value ="update"type="button">Update</button>
+            <button value="delete"type="button">Delete</button>
+            <button value="update"type="button">Update</button>
             `
             pdiv = document.createElement("div")
             pdiv.id = "songimg"
