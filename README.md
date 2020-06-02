@@ -25,8 +25,11 @@ Standard
 - The user can see all playlists and all songs within each playlist
 
 ## Code Example
+Event Listener Code
 
+<img width="371" alt="Screen Shot 2020-06-02 at 4 23 44 PM" src="https://user-images.githubusercontent.com/9657307/83566105-7a0b8080-a4ed-11ea-983c-6dbb70365790.png">
 
+In this snippet above, I create an event listener for each playlist to add songs to each playlist. The event listener listens for a click on a button element already on the page. The if statement then checks to see if the value of the button was clicked was Add Song. If it was the function will store the id and textcontent of the nearest "li" tag which is the playlist itself. It will then look for the nearest form and set the values of the text fields to const variables. Then I fire a fetch request and pass in the variables and the playlist id as JSON data for my rails api to receive. If there is a response from the server meaning no error has occurred the next function called renderOneSong will start and the form fields will reset themselves.
 ## How to use
 
 ### Clone down backend repo https://github.com/Gurjot-Sidhu/Playnew/tree/master/playlister-backend
