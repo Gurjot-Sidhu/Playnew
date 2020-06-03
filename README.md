@@ -10,7 +10,8 @@ Build failing
 ## Code Style
 Standard
 
-## Screenshots
+## Demo video
+[![Demo](http://img.youtube.com/vi/eONSjVLzQwg/0.jpg)](http://www.youtube.com/watch?v=eONSjVLzQwg "Playlister Demo")
 
 ## Tech/framework used
 **Built with**
