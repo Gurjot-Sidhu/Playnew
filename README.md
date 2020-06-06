@@ -6,7 +6,7 @@ A playlist creation app designed to add songs from different platforms
 I am part of a few group chats, some of which share songs and playlists. Any one of us would often have to find different platforms that allow us to listen to said song or playlist. Playlister combines all of them into one.
 
 ## Build Status
-Build failing[![Build Status](https://travis-ci.com/Gurjot-Sidhu/GoalFrontend.svg?branch=master)](https://travis-ci.com/Gurjot-Sidhu/GoalFrontend)
+[![Build Status](https://travis-ci.com/Gurjot-Sidhu/GoalFrontend.svg?branch=master)](https://travis-ci.com/Gurjot-Sidhu/GoalFrontend)
 
 ## Code Style
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
@@ -17,7 +17,7 @@ Build failing[![Build Status](https://travis-ci.com/Gurjot-Sidhu/GoalFrontend.sv
 ## Screenshots
 <img width="640" height="480" alt="Screen Shot 2020-06-06 at 1 59 49 PM" src="https://user-images.githubusercontent.com/9657307/83951357-eb557700-a7fe-11ea-8703-f21ab6f8b27a.png">
 
-<img width="640" height-"480" alt="Screen Shot 2020-06-06 at 2 01 20 PM" src="https://user-images.githubusercontent.com/9657307/83951359-edb7d100-a7fe-11ea-9585-5539a1097015.png">
+<img width="640" height="480" alt="Screen Shot 2020-06-06 at 2 01 20 PM" src="https://user-images.githubusercontent.com/9657307/83951359-edb7d100-a7fe-11ea-9585-5539a1097015.png">
 
 ## Tech/framework used
 **Built with**
